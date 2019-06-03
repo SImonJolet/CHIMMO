@@ -1,1 +1,45 @@
-*
+body {
+    background-color: ;
+    margin: 0;
+    padding:0;
+}
+
+.art-02{ /* Conteneur image Plan */
+    width: 900px;
+    display:flex;
+    justify-content: center;
+}
+
+.plan{ /* Image plan*/
+    width: 450px;
+}
+
+.list{ /* Conteneur deux listes */
+    width: 1300px;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#logo-list { /* Images + et liste*/
+    width: 95px;
+    height: 95px;
+    border-radius: px;
+    overflow: ;
+}
+
+.list-01{ /* Liste points forts*/
+    width: 450px;
+    border-style: outset;
+    text-align:justify;
+}
+
+.list-02{ /* Liste prestations*/
+    width: 450px;
+    border-style: outset;
+    text-align:justify;
+}
+
+.art-03{
+    margin : 0 auto;
+}
