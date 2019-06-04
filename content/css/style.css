@@ -1,10 +1,199 @@
-body{
-  background-color: #ff0000;
+body {
   margin: 0;
   padding: 0;
 }
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  width: 1440px;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/2600x1200_01.jpg");
+  background-size: cover;
+}
+
+#content {
+  width: 1440px;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  width: 1440px;
+  height: 120px;
+  background-color: #13334c;
+  display: flex;
+  justify-content: center;
+}
+
+.header-block {
+  width: 850px;
+  height: 670px;
+  border: 1px solid red;
+}
+
+.content-block {
+  width: 850px;
+  height: 100%;
+  border: 1px solid red;
+}
+
+.footer-block {
+  width: 850px;
+  height: 120px;
+  border: 1px solid red;
+}
+
+.article-01 {
+  width: auto;
+  height: 500px;
+}
+
+.nav {
+  width: auto;
+  height: 80px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar {
+  width: 350px;
+  height: 35px;
+  border: 1px solid red;
+}
+
+.logo {
+  width: 95px;
+  height: 35px;
+  border: 1px solid red;
+}
+
+.tel {
+  width: 150px;
+  height: 35px;
+  border: 1px solid red;
+}
+
+.circles {
+  width: 220px;
+  height: 105px;
+  border: 1px solid red;
+}
+
+.call {
+  width: 200px;
+  height: 150px;
+  border: 1px solid red;
+}
+
+.photo {
+  width: 635px;
+  height: 430px;
+  border: 1px solid red;
+  margin-left: 420px;
+  position: absolute;
+  background-image: url("../img/1200x800_01.jpg");
+  background-size: cover;
+}
+
+.invest {
+  width: 405px;
+  height: 215px;
+  border: 1px solid red;
+  position: absolute;
+}
+
+.paragraph {
+  width: 530px;
+  height: 215px;
+  background-color: #fff;
+  margin-top: 215px;
+  border: 1px solid red;
+  position: absolute;
+  display: flex;
+}
+
+#paragraph-text {
+  width: 265px;
+  height: 215px;
+  border: 1px solid red;
+}
+
+.more {
+  width: 135px;
+  height: 50px;
+  margin-top: 430px;
+  border: 1px solid red;
+  position: absolute;
+}
+
+.article-01 {
+  margin-top: 125px;
+}
+
+.article-02 {
+  width: 850px;
+  height: 530px;
+  background-image: url("../img/1600x1000_01.jpg");
+  margin-top: -30px;
+  background-size: cover;
+}
+
+.article-03 {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.article-04 {
+  width: 850px;
+  height: 105px;
+  margin-top: 100px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+
+.infos {
+  width: 100%;
+  height: 45px;
+  border: 1px solid red;
+}
+
+#list {
+  width: 300px;
+  height: 100%;
+  border: 1px solid red;
+  margin: 0 35px 0 35px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.title-list {
+  width: 180px;
+  height: 25px;
+  border: 1px solid red;
+  margin-bottom: 55px;
+}
+
+.list-content {
+  width: 365px;
+  height: 480px;
+  border: 1px solid red;
+}
+
 /* Simon */
-.footer{
+.footer-block{
   background-color: #13324b;
   color: white;
   height: 120px;
@@ -23,25 +212,37 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+#logo-links {
+  display: flex;
+  align-items: center;
+}
 .logo-bottom{
   width: 120px;
   height: auto;
   border: 1px solid black;
+} ;
 }
 .links-bottom{
   border: 1px solid blue;
   font-family: "Montserrat-Black", sans-serif;
   }
+  .house {
+    padding-right: 15px;
+  }
   .links-bottom a:link {
+    padding: 5px;
     text-decoration: none;
     color: white;
   }
   .links-bottom a:visited {
+    padding: 5px;
     text-decoration: none;
     color: white;
   }
 .contactlogo {
+  display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 .sfd{
   border: 1px solid yellow;
