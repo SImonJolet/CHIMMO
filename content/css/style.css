@@ -234,9 +234,12 @@ body {
     text-decoration: none;
     color: white;
   }
+@font-face{
+  font-family: "Montserrat-Black";
+  src: url("../font/Montserrat/Montserrat-Black.ttf")
+  }
   a {
     font-family: Montserrat-Black;
-    src: url("../font/Montserrat/Montserrat-Black.ttf")
   }
   .links-bottom a:visited {
     padding: 5px;
@@ -248,16 +251,31 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-span {
+.sfd {
+  display: flex;
+  align-items: center;
+}
+@font-face{
+  font-family: "Montserrat-ExtraLight"; 
+  src: url("../font/Montserrat/Montserrat-ExtraLight.ttf");
+}
+.contact{
+  font-family: Montserrat-ExtraLight;
+  font-size: 8px;
+}
+@font-face{
+  font-family: "Montserrat-SemiBold";
+  src: url("../font/Montserrat/Montserrat-SemiBold.ttf")
+}
+.credit{
   padding: 8px;
+  font-size: 8px;
+  font-family: Montserrat-SemiBold;
 }
 .sfd{
   border: 1px solid yellow;
 }
 .logo-SFD{
   border: 1px solid green;
-}
-#Montserrat-ExtraLight {
-  font-family: Montserrat-ExtraLight
-  src:url('../font/Montserrat/Montserrat-ExtraLight.ttf')
+
 }
