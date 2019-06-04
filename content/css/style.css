@@ -3,23 +3,24 @@ body{
   margin: 0;
   padding: 0;
 }
+/* Simon */
 .footer{
   background-color: #13324b;
   color: white;
-  height: 170px;
+  height: 120px;
   width: 100%;
   display: flex;
   align-items: center;
   align-content: center;
-  font-size: 10px;
+  font-size: 11px;
 
 }
 .nav-bottom{
   border: 1px solid pink;
-  width: 58%;
+  width: 75%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .logo-bottom{
@@ -30,6 +31,17 @@ body{
 .links-bottom{
   border: 1px solid blue;
   font-family: "Montserrat-Black", sans-serif;
+  }
+  .links-bottom a:link {
+    text-decoration: none;
+    color: white;
+  }
+  .links-bottom a:visited {
+    text-decoration: none;
+    color: white;
+  }
+.contactlogo {
+  justify-content: flex-end;
 }
 .sfd{
   border: 1px solid yellow;
