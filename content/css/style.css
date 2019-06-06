@@ -191,7 +191,7 @@ body {
 }
 
 .infos {
-  width: 70%;
+  width: 80%;
   height: 45px;
   font-size: 35px;
 border: 1px solid red;
@@ -209,7 +209,7 @@ border: 1px solid red;
   font-family: DroidSerif-Regular
 }
 .bouton{
-  width: 30%;
+  width: 20%;
   height: 45px;
   border: 1px solid #7ca8cc;
   border-radius: 100px;
@@ -222,7 +222,6 @@ border: 1px solid red;
   background-color: #7ca8cc;
   width: 35px;
   height: 35px;
-  border: 1px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,7 +243,6 @@ svg{
   }
 
 .contacteznous {
-  border: 1px solid greenyellow;
   font-family: Montserrat-Bold;
   font-size: 11px;
   color: #7ca8cc;
