@@ -1,10 +1,16 @@
+<<<<<<< .merge_file_30FgCu
 /* Squelette */
+=======
+>>>>>>> .merge_file_EJDZyu
 body {
   margin: 0;
   padding: 0;
 }
 
+<<<<<<< .merge_file_30FgCu
 /* Fonts */
+=======
+>>>>>>> .merge_file_EJDZyu
 @font-face{ 
   font-family: "Montserrat-ExtraLight"; 
   src: url("../font/Montserrat/Montserrat-ExtraLight.ttf");  
@@ -15,6 +21,10 @@ body {
   src: url("../font/Droid Serif/DroidSerif-Regular.ttf");  
 }
 
+<<<<<<< .merge_file_30FgCu
+=======
+
+>>>>>>> .merge_file_EJDZyu
 #container {
   display: flex;
   flex-direction: column;
@@ -22,7 +32,11 @@ body {
 }
 
 #header {
+<<<<<<< .merge_file_30FgCu
   width: 1440px;
+=======
+  width: 100%;
+>>>>>>> .merge_file_EJDZyu
   height: 670px;
   display: flex;
   justify-content: center;
@@ -30,8 +44,13 @@ body {
   background-size: cover;
 }
 
+<<<<<<< .merge_file_30FgCu
 #content {
   width: 1440px;
+=======
+#content 
+  width: 100%;
+>>>>>>> .merge_file_EJDZyu
   height: 100%;
   background-color: #fff;
   display: flex;
@@ -39,7 +58,11 @@ body {
 }
 
 #footer {
+<<<<<<< .merge_file_30FgCu
   width: 1440px;
+=======
+  width: 100%;
+>>>>>>> .merge_file_EJDZyu
   height: 120px;
   background-color: #13334c;
   display: flex;
@@ -47,23 +70,34 @@ body {
 }
 
 .header-block {
+<<<<<<< .merge_file_30FgCu
   width: 850px;
+=======
+  width: 60%;
+>>>>>>> .merge_file_EJDZyu
   height: 670px;
   border: 1px solid red;
 }
 
 .content-block {
+<<<<<<< .merge_file_30FgCu
   width: 850px;
+=======
+  width: 60%;
+>>>>>>> .merge_file_EJDZyu
   height: 100%;
   border: 1px solid red;
 }
 
+<<<<<<< .merge_file_30FgCu
 .footer-block {
   width: 850px;
   height: 120px;
   border: 1px solid red;
 }
 
+=======
+>>>>>>> .merge_file_EJDZyu
 .article-01 {
   width: auto;
   height: 500px;
@@ -108,6 +142,16 @@ body {
   border: 1px solid red;
 }
 
+<<<<<<< .merge_file_30FgCu
+=======
+.article-01 {
+  margin-top: 125px;
+  width: 100%;
+  display: flex;
+}
+
+
+>>>>>>> .merge_file_EJDZyu
 .photo {
   width: 635px;
   height: 430px;
@@ -149,6 +193,7 @@ body {
   position: absolute;
 }
 
+<<<<<<< .merge_file_30FgCu
 .article-01 {
   margin-top: 125px;
 }
@@ -161,6 +206,17 @@ body {
   background-size: cover;
 }
 
+=======
+.article-02 {
+  width: 100%;
+  height: 530px;
+  background-image: url("../img/1600x1000_01.jpg");
+  margin-top: 600px;
+  background-size: cover;
+  display: flex;
+  position: static;
+}
+>>>>>>> .merge_file_EJDZyu
 .article-03 {  /* Gaetan */
   display: flex;
   justify-content: center;
@@ -168,7 +224,11 @@ body {
 }
 
 #list { /* Tableau principal : textes - icones - listes */
+<<<<<<< .merge_file_30FgCu
   width: 50%;
+=======
+  width: 300px;
+>>>>>>> .merge_file_EJDZyu
   height: 100%;
   margin: 0 55px 0 55px;
   display: flex;
@@ -200,14 +260,23 @@ body {
 }
 
 .list-content { /* Tableau listes */
+<<<<<<< .merge_file_30FgCu
   width: 100%;
+=======
+  width: 300px;
+>>>>>>> .merge_file_EJDZyu
   height: 100%;
   box-shadow: 1px 2px 5px 1px #e2e0e0b3;
 }
 
 .icon-list img { /* images icones */
+<<<<<<< .merge_file_30FgCu
   width: 50%;
   height: 50%;
+=======
+  width: 20px;
+  height: 20px;
+>>>>>>> .merge_file_EJDZyu
 }
 
 li { /* Listes */
@@ -224,6 +293,7 @@ li { /* Listes */
   margin-right:40px;
  } 
 
+<<<<<<< .merge_file_30FgCu
 .article-04 {
   width: 850px;
   height: 105px;
@@ -238,3 +308,151 @@ li { /* Listes */
   height: 45px;
   border: 1px solid red;
 }
+=======
+
+
+/* Simon */
+.article-04 {
+  width: 68%x;
+  height: 155px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  border-top: 1px solid #CECECE;
+}
+
+.infos {
+  width: 80%;
+  height: 45px;
+  font-size: 35px;
+border: 1px solid red;
+}
+@font-face{
+  font-family: "DroidSerif-Regular";
+  src: url("../font/DroidSerif/DroidSerif-Regular.ttf")
+}
+.foncé {
+  color: #13324b;
+  font-family: DroidSerif-Regular;
+}
+.clair {
+  color: #7ca8cc;
+  font-family: DroidSerif-Regular
+}
+.bouton{
+  width: 20%;
+  height: 45px;
+  border: 1px solid #7ca8cc;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.arrowscroll{
+  border-radius: 100%;
+  background-color: #7ca8cc;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.whitearrow {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #7ca8cc;
+}
+svg{
+  width: 15px;
+  height: 15px;
+}
+@font-face{
+  font-family: "Montserrat-Bold";
+  src: url("../font/Montserrat/Montserrat-Bold.ttf")
+  }
+
+.contacteznous {
+  font-family: Montserrat-Bold;
+  font-size: 11px;
+  color: #7ca8cc;
+}
+/* Simon */
+.footer-block{
+  background-color: #13324b;
+  color: white;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 10px;
+
+}
+.nav-bottom{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo-links {
+  display: flex;
+  align-items: center;
+}
+.logo-bottom{
+  width: 120px;
+  height: auto;
+} ;
+
+.links-bottom{  
+  font-family: Montserrat-Black;
+  }
+  .house {
+    padding-right: 15px;
+  }
+  .links-bottom a:link {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  a {
+    font-family: Montserrat-Bold;
+  }
+  .links-bottom a:visited {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+  }
+.contactlogo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sfd {
+  display: flex;
+  align-items: center;
+}
+@font-face{
+  font-family: "Montserrat-ExtraLight"; 
+  src: url("../font/Montserrat/Montserrat-ExtraLight.ttf");
+}
+.contact{
+  font-family: Montserrat-ExtraLight;
+  font-size: 8px;
+}
+@font-face{
+  font-family: "Montserrat-SemiBold";
+  src: url("../font/Montserrat/Montserrat-SemiBold.ttf")
+}
+.credit{
+  padding: 8px;
+  font-size: 8px;
+  font-family: Montserrat-SemiBold;
+}
+/* Simon's Out*/
+
+>>>>>>> .merge_file_EJDZyu
