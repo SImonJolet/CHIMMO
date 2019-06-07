@@ -189,8 +189,56 @@ main {
 footer {
   width: 100%;
   height: 125px;
+  border: 1px solid red;
   background-color: #13334c;
   display: grid;
-  grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 1fr;
+  grid-template-columns: 20% 10% 3% 29% 10% 5% 3% 20%;
+  grid-template-rows: 33% 34% 33%;
+  
+}
+
+
+.logo-bottom{
+  border: 1px solid blue;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.house{
+  border: 1px solid yellow;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.links-bottom{
+  border: 1px solid grey;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.contact{
+  border: 1px solid green;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.credit{
+  border: 1px solid blueviolet;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.logo-SFD{
+  border: 1px solid orange;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
 }
