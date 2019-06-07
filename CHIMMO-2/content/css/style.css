@@ -1,12 +1,42 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Montserrat;
-  src: url("../font/Montserrat/Montserrat-Medium.ttf");
-  src: url("../font/Montserrat/Montserrat-Bold.ttf");
-  src: url("../font/Droid-Serif/DroidSerif-Regular.ttf");
-  src: url("../font/Droid-Serif/DroidSerif-Italic.ttf");
+
 }
+/* Fonts */
+@font-face{ 
+  font-family: "Montserrat-ExtraLight"; 
+  src: url("../font/Montserrat/Montserrat-ExtraLight.ttf");  
+}
+
+@font-face{ 
+  font-family: "DroidSerif-Regular"; 
+  src: url("../font/Droid Serif/DroidSerif-Regular.ttf");  
+}
+
+@font-face{
+  font-family: "Montserrat-SemiBold";
+  src: url("../font/Montserrat/Montserrat-SemiBold.ttf")
+}
+
+@font-face{
+  font-family: "Montserrat-Bold";
+  src: url("../font/Montserrat/Montserrat-Bold.ttf")
+  }
+@font-face{
+  font-family: "Montserrat-Medium";
+  src: url("../font/Montserrat/Montserrat-Medium.ttf")
+}
+@font-face{
+  font-family: "Montserrat-Light";
+  src: url("../font/Montserrat/Montserrat-Light.ttf")
+
+}
+@font-face{
+  font-family: "DroidSerif-Italic";
+  src: url("../font/DroidItalic/DroidSerif-Italic.ttf")
+}
+
 
 header {
   width: 100%;
@@ -189,56 +219,77 @@ main {
 footer {
   width: 100%;
   height: 125px;
-  border: 1px solid red;
   background-color: #13334c;
   display: grid;
-  grid-template-columns: 20% 10% 3% 29% 10% 5% 3% 20%;
-  grid-template-rows: 33% 34% 33%;
+  grid-template-columns: 20% 10% 3% 30.25% 9% 4.75% 3% 20%;
+  grid-template-rows: 35% 30% 35%;
+  align-items: center;
+  justify-content: center;
   
 }
 
 
 .logo-bottom{
-  border: 1px solid blue;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  
 }
 
 .house{
-  border: 1px solid yellow;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
+  margin: auto;
 }
 .links-bottom{
-  border: 1px solid grey;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
+  font-family: Montserrat-Bold;
+  margin:left;
+}
+.links-bottom a:link{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  padding: 3px;
+}
+.links-bottoma:visited{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  padding: 3px;
 }
 .contact{
-  border: 1px solid green;
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 3;
+  font-family: Montserrat-ExtraLight;
+  font-size: 8px;
+  margin: auto;
+  color: white;
 }
 .credit{
-  border: 1px solid blueviolet;
   grid-column-start: 6;
   grid-column-end: 7;
   grid-row-start: 2;
   grid-row-end: 3;
+  font-family: Montserrat-SemiBold;
+  padding: 6px;
+  font-size: 8px;
+  margin:auto; 
+   color: white;
+   
 }
 .logo-SFD{
-  border: 1px solid orange;
   grid-column-start: 7;
   grid-column-end: 8;
   grid-row-start: 2;
   grid-row-end: 3;
-
+  margin: auto;
 }
